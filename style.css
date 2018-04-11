@@ -10,9 +10,14 @@ body {
     #155799,
     #159957
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 .card {
   -webkit-box-shadow: 10px 10px 47px 0px rgba(21, 87, 153, 1);
   -moz-box-shadow: 10px 10px 47px 0px rgba(21, 87, 153, 1);
   box-shadow: 10px 10px 47px 0px rgba(21, 87, 153, 1);
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
 }
